@@ -51,12 +51,12 @@ export default function Ecosystem() {
               />
             </Col>
             <Col
-              className="mt-5"
-              style={{
-                display: "flex",
-                justifyContent: "flex-end",
-                width: "100%",
-              }}
+              className="mt-5 eco-card3-row1"
+              // style={{
+              //   // display: "flex",
+              //   // justifyContent: "flex-end",
+              //   // width: "100%",
+              // }}
             >
               <Card
                 images={[cloudBaseManagementPng]}
@@ -68,10 +68,7 @@ export default function Ecosystem() {
               />
             </Col>
           </Row>
-          <div
-            // style={{ marginTop: "6rem", marginBottom: "7rem" }}
-            className="d-flex justify-content-center align-item-center"
-          >
+          <div className="d-flex justify-content-center align-item-center">
             <Row
               style={{
                 width: "50%",
