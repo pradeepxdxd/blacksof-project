@@ -16,7 +16,7 @@ export default function Product() {
             development goals
           </h3>
 
-          <div className="d-flex mt-5" style={{ flexWrap: "wrap" }}>
+          <div className="d-flex mt-5 flex-wrap">
             <Button
               className="bg-btn"
               style={{
@@ -107,13 +107,20 @@ export default function Product() {
                 <div
                   style={{
                     display: "flex",
-                    flexDirection: "column", 
-                    alignItems: "flex-start", 
-                    justifyContent: "center", 
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                    justifyContent: "center",
                     height: "100%",
                   }}
                 >
-                  <div style={{ width:'60%', marginLeft:'40px', marginTop:'7px', marginBottom:'7px' }}>
+                  <div
+                    style={{
+                      width: "60%",
+                      marginLeft: "40px",
+                      marginTop: "7px",
+                      marginBottom: "7px",
+                    }}
+                  >
                     <h6 style={{ fontWeight: "lighter" }}>Product 1/5</h6>
                     <h3>Centralized Control & Monitoring System</h3>
                     <p>
@@ -129,7 +136,11 @@ export default function Product() {
                         Know More
                       </NavLink>
                       <span className="mx-2">
-                        <img src={iconpng} alt="icon" style={{cursor:'pointer'}} />
+                        <img
+                          src={iconpng}
+                          alt="icon"
+                          style={{ cursor: "pointer" }}
+                        />
                       </span>
                     </div>
                   </div>

@@ -15,9 +15,10 @@ export default function Ecosystem() {
         <h3 className="eco-desc">
           How does a smart street light ecosystem work?
         </h3>
-        <div className="mt-5">
+        <div className="mt-2">
           <Row>
             <Col
+              className="mt-5"
               style={{
                 display: "flex",
                 justifyContent: "flex-start",
@@ -34,6 +35,7 @@ export default function Ecosystem() {
               />
             </Col>
             <Col
+              className="mt-5"
               style={{
                 display: "flex",
                 justifyContent: "center",
@@ -49,6 +51,7 @@ export default function Ecosystem() {
               />
             </Col>
             <Col
+              className="mt-5"
               style={{
                 display: "flex",
                 justifyContent: "flex-end",
@@ -66,7 +69,7 @@ export default function Ecosystem() {
             </Col>
           </Row>
           <div
-            style={{ marginTop: "6rem", marginBottom: "7rem" }}
+            // style={{ marginTop: "6rem", marginBottom: "7rem" }}
             className="d-flex justify-content-center align-item-center"
           >
             <Row
@@ -79,6 +82,7 @@ export default function Ecosystem() {
                   display: "flex",
                   justifyContent: "center",
                 }}
+                className="mt-5"
               >
                 <Card
                   images={[usersPng]}
@@ -88,6 +92,7 @@ export default function Ecosystem() {
                 />
               </Col>
               <Col
+                className="mt-5"
                 style={{
                   display: "flex",
                   justifyContent: "center",

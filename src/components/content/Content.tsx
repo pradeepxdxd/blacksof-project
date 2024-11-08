@@ -14,26 +14,56 @@ export default function Content() {
           </div>
         </div>
         <Row>
-          <Col className="col-left">
+          <Col
+            xs={12}
+            sm={6}
+            md={6}
+            lg={6}
+            xl={6}
+            className="col-left mt-5"
+            style={{
+              borderRight: "1px solid rgb(203, 203, 203)",
+              borderBottom: "1px solid rgb(203, 203, 203)",
+            }}
+          >
             <Card
               rule={{ width: 160 }}
               content="Saves on power consumption & related costs."
             />
           </Col>
-          <Col className="col-right">
+          <Col
+            xs={12}
+            sm={6}
+            md={6}
+            lg={6}
+            xl={6}
+            className="col-right mt-5"
+            style={{ borderBottom: "1px solid rgb(203, 203, 203)" }}
+          >
             <Card rule={{ width: 160 }} content="Lowers downtimes." />
           </Col>
         </Row>
-        <Row className="mt-5">
-          <Col xs={3}>
+        <Row>
+          <Col
+            className="mt-5"
+            xs={12}
+            sm={3}
+            style={{
+              borderBottom: "1px solid rgb(203, 203, 203)",
+              borderRight: "1px solid rgb(203, 203, 203)",
+            }}
+          >
             <Card rule={{ width: 160 }} content="Detects power thefts." />
           </Col>
           <Col
-            xs={9}
+            className="mt-5"
+            xs={12}
+            sm={9}
             style={{
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
+              borderBottom: "1px solid rgb(203, 203, 203)",
             }}
           >
             <Card
@@ -42,14 +72,29 @@ export default function Content() {
             />
           </Col>
         </Row>
-        <Row className="mt-5">
-          <Col xs={8}>
+        <Row>
+          <Col
+            xs={12}
+            sm={8}
+            style={{
+              borderBottom: "1px solid rgb(203, 203, 203)",
+              borderRight: "1px solid rgb(203, 203, 203)",
+            }}
+            className="mt-5"
+          >
             <Card
               rule={{ width: 260 }}
               content="Ensures reat-time actionable analytics on power failures, lamp malfunctions, voltage failures, etc."
             />
           </Col>
-          <Col xs={4}>
+          <Col
+            xs={12}
+            sm={4}
+            style={{
+              borderBottom: "1px solid rgb(203, 203, 203)",
+            }}
+            className="mt-5"
+          >
             <Card
               rule={{ width: 160 }}
               content="Ensure security in the neighborhood."
