@@ -36,3 +36,22 @@
 .product-def {
     background: linear-gradient(to bottom, #ffffff, #c7f1ff);
 }
+
+
+@media (max-width: 795px) {
+    .product-desc {
+        font-size: medium;
+    }
+    .bg-btn span{
+        font-size: xx-small;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-desc {
+        font-size: small;
+    }
+    .bg-btn {
+        font-size: xx-small;
+    }
+}

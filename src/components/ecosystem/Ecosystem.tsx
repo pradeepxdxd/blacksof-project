@@ -52,11 +52,6 @@ export default function Ecosystem() {
             </Col>
             <Col
               className="mt-5 eco-card3-row1"
-              // style={{
-              //   // display: "flex",
-              //   // justifyContent: "flex-end",
-              //   // width: "100%",
-              // }}
             >
               <Card
                 images={[cloudBaseManagementPng]}

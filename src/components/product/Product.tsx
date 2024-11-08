@@ -16,9 +16,9 @@ export default function Product() {
             development goals
           </h3>
 
-          <div className="d-flex mt-5 flex-wrap">
+          <div className="d-flex mt-3 flex-wrap">
             <Button
-              className="bg-btn"
+              className="bg-btn mt-2 mx-2"
               style={{
                 width: "auto",
                 borderRadius: "1px",
@@ -26,34 +26,43 @@ export default function Product() {
                 color: "black",
               }}
             >
-              Centralized Control & Monitoring System
+              <span>Centralized Control & Monitoring System</span>
             </Button>
             <Button
-              className="bg-btn"
+              className="bg-btn mt-2 mx-2"
               style={{
                 width: "auto",
                 borderRadius: "1px",
                 border: "none",
-                marginLeft: "15px",
                 color: "black",
               }}
             >
-              NEMA-Mounted VOLC 1160
+              <span>NEMA-Mounted VOLC 1160</span>
             </Button>
             <Button
-              className="bg-btn"
+              className="bg-btn mt-2 mx-2"
               style={{
                 width: "auto",
                 borderRadius: "1px",
                 border: "none",
-                marginLeft: "15px",
                 color: "black",
               }}
             >
-              Retrofit Street Light Controller VOLC 2160
+              <span>Retrofit Street Light Controller VOLC 2160</span>
             </Button>
             <Button
-              className="bg-btn"
+              className="bg-btn mt-2 mx-2"
+              style={{
+                width: "auto",
+                borderRadius: "1px",
+                border: "none",
+                color: "black",
+              }}
+            >
+              <span>Retrofit Street Light Controller VOLC 2180</span>
+            </Button>
+            <Button
+              className="bg-btn mt-2 mx-2"
               style={{
                 width: "auto",
                 borderRadius: "1px",
@@ -62,20 +71,7 @@ export default function Product() {
                 marginTop: "15px",
               }}
             >
-              Retrofit Street Light Controller VOLC 2180
-            </Button>
-            <Button
-              className="bg-btn"
-              style={{
-                width: "auto",
-                borderRadius: "1px",
-                border: "none",
-                marginLeft: "15px",
-                color: "black",
-                marginTop: "15px",
-              }}
-            >
-              Retrofit Street Light Controller VOLC 4180
+              <span>Retrofit Street Light Controller VOLC 4180</span>
             </Button>
           </div>
 

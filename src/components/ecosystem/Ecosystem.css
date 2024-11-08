@@ -37,4 +37,13 @@
         align-items: center;
         width: 100%;
     }
+    .eco-desc {
+        font-size: medium;  
+    }
+}
+
+@media (max-width: 480px) {
+    .eco-desc {
+        font-size: small;  
+    }
 }
