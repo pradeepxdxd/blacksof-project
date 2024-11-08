@@ -1,0 +1,23 @@
+.home-container {
+    background-image: url('../../assets/Hero_section.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.text-head {
+    color: rgb(219, 219, 219);
+}
+
+.text-subhead {
+    color: rgb(117, 137, 154);
+    margin: 24px 0;
+}
+
+.content-container {
+    text-align: center;
+}

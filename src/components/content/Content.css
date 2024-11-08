@@ -1,0 +1,23 @@
+.content-subcontainer {
+    width: 40%;
+    margin: 66px 0;
+}
+
+.content-box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 480px;
+    font-family: sans-serif;
+}
+
+.col-left {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.col-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}

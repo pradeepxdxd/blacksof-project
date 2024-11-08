@@ -1,0 +1,45 @@
+.img-double-border .card-img {
+    margin: 2px 10px;
+    border: 1px solid rgb(150, 150, 251);
+    border-radius: 15px;
+    padding: 13px;
+    height: 70px;
+    width: 60px
+}
+
+.img-double-border {
+    margin: 7px 17px;
+    border: 2px dashed rgb(185, 185, 255);
+    border-radius: 15px;
+    padding: 5px 0px;
+}
+
+.img-border {
+    border: 2px dashed rgb(224, 224, 224);
+    border-radius: 15px;
+    padding: 15px
+}
+
+.border-card-img {
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    background: white;
+    padding: 13px;
+    width: 80px;
+    height: 80px;
+}
+
+.card-title {
+    font-size: xx-small;
+    font-weight: bold;
+}
+
+.card-desc {
+    font-size: small;
+    font-weight: lighter;
+}
+
+.card-desc-div {
+    width: 70%;
+    margin: 0 auto;
+}

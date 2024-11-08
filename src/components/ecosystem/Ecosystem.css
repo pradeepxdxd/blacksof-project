@@ -1,0 +1,25 @@
+.eco-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #dae8fd, #ffffff);
+}
+
+.eco-subcontainer {
+    width: 70%;
+    margin: 66px 0;
+}
+
+.eco-title {
+    display: inline-block;
+    padding: 8px 16px;
+    background: linear-gradient(to right, #87b7ff, #ffffff, #ffffff, #ffffff);
+    color: #1a3d7a;
+    margin-bottom: 10px;
+}
+
+.eco-desc {
+    font-family: sans-serif;
+    max-width: 30%;
+    margin-top: 3px;
+}

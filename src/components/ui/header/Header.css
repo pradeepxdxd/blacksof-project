@@ -1,0 +1,23 @@
+.btn {
+    width: 120px;
+    border-radius: 1px;
+}
+
+.nav-bg-img {
+    background-image: url('../../../assets/Hero_section.png');
+}
+
+.offcanvas {
+    background-color: white;
+    /* Dark background for larger screens */
+}
+
+@media (max-width: 992px) {
+    .offcanvas {
+        background-color: white;
+    }
+
+    .offcanvas-body .nav-link {
+        color: black !important;
+    }
+}
