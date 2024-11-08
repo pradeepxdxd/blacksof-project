@@ -40,6 +40,11 @@
     color: '#dedede'
 }
 
+.link-h{
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
 @media (max-width: 813px) {
     .logo-header {
         margin-left: 100px;
@@ -95,5 +100,12 @@
 
     .footer-link h6 {
         font-size: xx-small;
+    }
+}
+
+@media (max-width:446px) {
+    .link-h {
+        margin-left: 2px;
+        margin-right: 2px;
     }
 }

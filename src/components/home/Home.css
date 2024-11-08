@@ -4,9 +4,12 @@
     background-position: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     color: #fff;
+}
+
+.home-container .content-container {
+    margin-top: 130px;
 }
 
 .text-head {
@@ -20,4 +23,5 @@
 
 .content-container {
     text-align: center;
+    width: 50%;
 }

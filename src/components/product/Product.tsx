@@ -78,7 +78,7 @@ export default function Product() {
           <div className="mt-4">
             <Row>
               <Col
-                style={{ maxHeight: "50vh", padding: 0 }}
+                style={{ maxHeight: "70vh", padding: 0 }}
                 xs={12}
                 sm={6}
                 md={6}
@@ -92,7 +92,7 @@ export default function Product() {
                 />
               </Col>
               <Col
-                style={{ maxHeight: "100vh", padding: 0 }}
+                style={{ maxHeight: "70vh", padding: 0 }}
                 xs={12}
                 sm={6}
                 md={6}
@@ -107,6 +107,7 @@ export default function Product() {
                     alignItems: "flex-start",
                     justifyContent: "center",
                     height: "100%",
+                    maxHeight: "100%",
                   }}
                 >
                   <div
@@ -118,8 +119,8 @@ export default function Product() {
                     }}
                   >
                     <h6 style={{ fontWeight: "lighter" }}>Product 1/5</h6>
-                    <h3>Centralized Control & Monitoring System</h3>
-                    <p>
+                    <h3 className="product-def-title">Centralized Control & Monitoring System</h3>
+                    <p className="product-def-body">
                       Designed indigenously for street lighting projects, the
                       CCMS offers a complete feeder panal for a group of 30-50
                       street lights

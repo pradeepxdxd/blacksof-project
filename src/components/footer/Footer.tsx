@@ -1,4 +1,4 @@
-import "./Footer.css"; // Custom CSS file for styling
+import "./Footer.css";
 import logo from "../../assets/smart lights_logo.svg";
 import { Col, Row } from "react-bootstrap";
 
@@ -22,11 +22,14 @@ export default function SmartLights() {
             className="d-flex justify-content-start header-link"
             style={{ width: "100%", marginTop: "8.3rem" }}
           >
-            <h6 style={{ marginRight: "30px", cursor: "pointer" }}>Product</h6>
-            <h6 className="mx-3" style={{ cursor: "pointer" }}>
+            <h6 className="header-link-1 link-h" style={{ cursor: "pointer" }}>
+              Product
+            </h6>{" "}
+            {/*mr-30px*/}
+            <h6 className="link-h" style={{ cursor: "pointer" }}>
               Software Service
             </h6>
-            <h6 className="mx-3" style={{ cursor: "pointer" }}>
+            <h6 className="link-h" style={{ cursor: "pointer" }}>
               Follow Us
             </h6>
           </div>
@@ -34,11 +37,8 @@ export default function SmartLights() {
       </Row>
 
       <div style={{ marginTop: "230px" }}>
-        <hr className="divider"
-        />
-        <div
-          className="d-flex footer-link"
-        >
+        <hr className="divider" />
+        <div className="d-flex footer-link">
           <h6 className="mx-3">Privacy Policy</h6>
           &#124;
           <h6 className="mx-3">Terms & Conditions</h6>

@@ -37,13 +37,27 @@
         align-items: center;
         width: 100%;
     }
+
     .eco-desc {
-        font-size: medium;  
+        font-size: medium;
+    }
+}
+
+@media (max-width: 576px) {
+    .eco-card3-row1 {
+        margin-bottom: 55px;
     }
 }
 
 @media (max-width: 480px) {
     .eco-desc {
-        font-size: small;  
+        font-size: small;
+    }
+}
+
+
+@media (max-width: 403px) {
+    .eco-card3-row1 {
+        margin-bottom: 0px;
     }
 }

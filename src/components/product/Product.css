@@ -45,6 +45,12 @@
     .bg-btn span{
         font-size: xx-small;
     }
+    .product-def-title {
+        font-size: medium;
+    }
+    .product-def-body {
+        font-size: small;
+    }
 }
 
 @media (max-width: 480px) {
